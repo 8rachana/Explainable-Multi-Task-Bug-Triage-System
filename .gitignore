@@ -1,0 +1,19 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Generated model artifacts (>100MB)
+TrainingBERTClassifiers/BERTTrained/
+TrainingNaiveBayesClassifiers/MNB/
+TrainingNaiveBayesClassifiers/bayes/
+*.pkl
+*.bin
+*.pt
+
+# Large datasets (>100MB)
+extracted/*.csv
+*.csv
+
+# Environment
+.venv/
+.env
