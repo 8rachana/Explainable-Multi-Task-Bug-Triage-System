@@ -17,3 +17,8 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
+
+# 4. Run Benchmark Evaluation & Metrics
+To evaluate the models and view the  performance metrics (Macro-F1, Precision, Recall, Accuracy, and Per-Class F1 comparison against the base paper across 17,032 test bug reports), run:
+
+python show_benchmark_results.py
